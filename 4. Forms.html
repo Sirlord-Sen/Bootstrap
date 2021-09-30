@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above three meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <title>Bootstrap Grid</title>
+
+        <!-- Bootsrap -->
+        <link href="bootstrap-4.1.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="3.1%20styles(Grid).css">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of the HTML5 elememts and media queries -->
+        <!-- WARNING: Respond.js deosnt work if you view the page via file:// -->
+    </head>
+    
+    <body>
+        
+        <div class="container">         
+            <div class="page-header">
+                <h1>Bootstrap Forms</h1>
+                <p class="lead">Let's work with some sexy, pre-styled forms, shall we?</p>
+            </div> <!--Page header-->
+            
+            <div class="row">
+                <div class="col-sm-6"><hr>
+                    
+                    <form>
+                        <div class="form-group">
+                            <label for="formName">Your name</label>
+                            <input type="text" id="formName" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="formEmail">Email address</label>
+                            <input type="email" id="formEmail" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="formMessage">Your message</label>
+                            <textarea class="form-control" rows="4"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                <input type="checkbox"> Checkbox
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="formRadio"> Radio input #1
+                            </label><br>
+                            <label>
+                                <input type="radio" name="formRadio"> Radio input #2
+                            </label> 
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                    
+                </div>
+                <div class="col-sm-6">
+                    
+                    <form class="form-inline">
+                        
+                        <div class="form-group">
+                            <label for="loginEmail" class="sr-only">Email</label>
+                            <div class="input-group">
+                                <div class="input-group-addon">@</div>
+                                <input id="loginEmail" type="email" class="form-control" placeholder="Enter your email address">
+                            </div>    
+                        </div>
+                        <div class="form-group">
+                            <label for="loginPassword" class="sr-only">Password</label>
+                            <input id="loginPassword" type="password" class="form-control" placeholder="Enter your password">
+                        </div>
+                        
+                        <button type="button" class="btn btn-danger">Submit</button>
+                        
+                    </form>
+                    
+                </div>
+                
+            </div> <!-- row -->
+            
+        </div><!-- Container -->
+        
+        
+        
+        
+        
+        <!-- jQuery (necessary fr bootstrap's JavaScript plugins) -->
+        <script src="jquery-3.3.1.js"></script>
+        
+        <!-- Bootstrap of the JS -->
+        <script src="bootstrap-4.1.3/js/bootstrap.min.js"></script>
+    </body>
+    
+</html>
